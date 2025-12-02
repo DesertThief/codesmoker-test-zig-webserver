@@ -1,0 +1,14 @@
+.{
+    .name = .{ .data = "codesmoker-zig-webserver" },
+    .version = "0.1.0",
+    .minimum_zig_version = "0.13.0",
+    .dependencies = .{
+        .httpz = .{
+            .url = "git+https://github.com/karlseguin/http.zig?ref=v0.16.0#ef4b5523fcceb2f4513c7ef3c7cf5e68dddd9f65",
+            .hash = "1220f14d8be15ebb40c05e7ce8ce2ee6a2eb8d53b63cc51d41c53e96a4d4cb02e52e",
+        },
+    },
+    .paths = .{
+        ".",
+    },
+}
